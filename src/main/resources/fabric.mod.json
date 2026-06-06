@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "warping-ocular",
+	"version": "${version}",
+	"name": "Warping Ocular",
+	"description": "Задумывались ли вы о том, что в современном майнкрафте подзорная труба практически бесполезна? Данный мод стремится это исправить и сделать из неё юзабельный предмет.",
+	"authors": [
+		"MagmaXY"
+	],
+	"contact": {
+		"homepage": "https://github.com/MagmaXY/Warping-Ocular",
+		"sources": "https://github.com/MagmaXY/Warping-Ocular"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/warping-ocular/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.magmaxy.WarpingOcular"
+		],
+		"client": [
+			"com.magmaxy.client.WarpingOcularClient"
+		]
+	},
+	"mixins": [
+		"warping-ocular.mixins.json",
+		{
+			"config": "warping-ocular.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": ">=26.1",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

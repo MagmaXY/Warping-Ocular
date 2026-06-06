@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "show_notification": false,
+  "pattern": [
+    " #E",
+    " S#",
+    ".  "
+  ],
+  "key": {
+    "#": "minecraft:iron_ingot",
+    "E": "minecraft:ender_eye",
+    "S": "minecraft:spyglass",
+    ".": "minecraft:redstone"
+  },
+  "result": {
+    "id": "warping-ocular:warping_ocular",
+    "count": 1
+  }
+}

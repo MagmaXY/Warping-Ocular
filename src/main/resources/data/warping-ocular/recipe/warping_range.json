@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "show_notification": false,
+  "template": "minecraft:spire_armor_trim_smithing_template",
+  "base": "minecraft:book",
+  "addition": "minecraft:lapis_lazuli",
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:enchantments": {
+          "warping-ocular:warping_range": 1
+      }
+    }
+  }
+}

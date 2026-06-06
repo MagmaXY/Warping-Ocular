@@ -1,0 +1,18 @@
+{
+	"required": false,
+	"package": "com.magmaxy.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"HudMixin",
+		"GameRendererMixin",
+		"GameRendererInvoker",
+		"CameraMixin",
+		"MouseHandlerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

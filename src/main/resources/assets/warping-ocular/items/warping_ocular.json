@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [ "gui", "ground", "fixed" ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "warping-ocular:item/warping_ocular_2d"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:using_item",
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "warping-ocular:item/warping_ocular_using"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "warping-ocular:item/warping_ocular_3d"
+      }
+    }
+  }
+}
