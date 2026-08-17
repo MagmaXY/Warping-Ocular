@@ -23,7 +23,7 @@
 **Farsightedness I & II:**
 
 * Additional enchantments for the ocular that increase the maximum teleportation distance from the base 64 blocks up to 96 and 128 blocks, respectively.
-* **Level I Book:** Obtained via a lore-friendly recipe (by applying the "Eye" armor trim using Lapis Lazuli to a book).
+* **Level I Book:** Obtained via a lore-friendly recipe (by applying the "Spire" armor trim using Lapis Lazuli to a book).
 * **Level II Upgrade:** Created by combining two Level I books on an anvil or by applying a second Level I book directly to the ocular.
 
 The mod runs on Fabric starting from Java 26.2 and requires Fabric API.
